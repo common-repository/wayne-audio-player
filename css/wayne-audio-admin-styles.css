@@ -1,0 +1,162 @@
+#wayne-settings-saved-alert {
+	margin: 10px 0px 10px 0px;
+	background-color: #DFF0D8;
+	color: #468847;
+	padding: 8px 35px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1000;
+	font-size: 20px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 2px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 2px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 2px rgba(50, 50, 50, 0.75);
+	
+}
+
+#wayne-settings-form {
+	border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color:#F0F0F0;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 10px 0px 10px 0px;
+	-moz-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 5px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 5px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 5px rgba(0, 0, 0, 0.1);
+	margin-top: 10px;
+}
+
+.wayne-settings-logo {
+	background-size: 120px 58px;
+	width: 120px;
+	height: 58px;
+	background-repeat: no-repeat;
+	background-image: url(../img/wayne-header-logo.png);	
+	margin-left: 10px;	
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.wayne-save-settings.button.button-primary {
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.wayne-default-settings.button.button-secondary {
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.wayne-settings-container {
+	width: 100%;
+	float: left;
+	border: 1px solid rgba(170,170,170,0.8);
+	background-color: white;
+}
+
+
+.wayne-settings-container > table {
+	background-color: transparent;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+#wayne-settings-menu {
+	list-style: none;
+	margin: 0px;
+	border-top: 1px solid rgba(170,170,170,0.8);
+	border-left: 1px solid rgba(170,170,170,0.5);
+}
+
+#wayne-settings-menu.down {
+	
+}
+
+#wayne-settings-menu > li {
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+	color:#333;
+	text-shadow: #fff 0 1px 0;
+	background-color:#EBEBEB;
+	border-top: 2px solid rgba(255,255,255,0.8);
+	border-bottom: 1px solid rgba(170,170,170,0.8);
+	border-left: 1px solid rgba(170,170,170,0.5);
+	cursor: pointer;
+	-webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;	
+}
+
+#wayne-settings-menu > li.active {
+
+	background-color:white;
+	border-left: 1px solid rgba(170,170,170,0.0);
+	cursor:default;
+	
+}
+
+#wayne-settings-menu > li:hover {
+	background-color:#DCDCDC;
+}
+
+#wayne-settings-menu > li.active:hover {
+	background-color:white;
+}
+
+.ajax-spinner {
+	margin-right: 10px;
+	display:none;	
+}
+
+.wayne-settings-container tr{
+	border-bottom: 1px ridge rgba(170,170,170,0.2);
+}
+
+.wayne-settings-container .setting-description {
+	width: 100%;
+	font-style:italic;
+	color:#999999;
+	display:block;	
+}
+
+button.button.wayne-yes {
+	cursor: pointer;
+	font-size: 18px;
+	padding: 6px;
+	height: auto;
+	width: 80px;
+}
+
+button.button.wayne-no {
+	cursor: pointer;	
+	font-size: 18px;
+	padding: 6px;
+	height: auto;
+	width: 80px;
+}
+
+button.button.wayne-yes.button-primary {
+	
+}
+
+button.button.wayne-no.button-primary {
+		
+}
+
+.yes-no-buttons > button {
+	opacity: 0.6;
+}
+
+.yes-no-buttons > button.button-primary {
+	opacity: 1;
+}
